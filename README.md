@@ -15,7 +15,7 @@
 3. Figma
 ------ 
 ### Cсылка на проект:
-
+Github Pages: https://swat969.github.io/russian-travel/index.html
 ------ 
 ### Запуск проекта: 
 * Открыть **index.html** из корневой папки проекта в браузере.
