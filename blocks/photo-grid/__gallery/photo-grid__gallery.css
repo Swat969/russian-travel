@@ -21,13 +21,13 @@
     .photo-grid__gallery {
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
-} 
+}
 
 
 
 @media screen and (max-width: 480px) {
-	.photo-grid__gallery {
-		grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    .photo-grid__gallery {
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
         gap: 12px;
-	}
+    }
 }

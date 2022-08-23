@@ -9,26 +9,26 @@
 }
 
 .place:last-child {
-    padding:0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
-		column-gap: 32px;
+        column-gap: 32px;
         max-width: 928px;
     }
-} 
-  
-  @media screen and (max-width: 1023px) {
-    .place { 
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
         max-width: 720px;
-		column-gap: 28px;
+        column-gap: 28px;
         padding: 0 0 72px 0;
     }
-} 
+}
 
 @media screen and (max-width: 767px) {
-    .place { 
+    .place {
         display: flex;
         grid-template-columns: 1fr;
         max-width: 320px;

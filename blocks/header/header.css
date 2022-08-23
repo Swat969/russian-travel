@@ -8,21 +8,21 @@
 }
 
 @media screen and (max-width:1024px) {
-    .header{
+    .header {
         max-width: 924px;
         width: calc(100% - 2*48px);
     }
 }
 
 @media screen and (max-width:768px) {
-    .header{
+    .header {
         max-width: 720px;
         width: calc(100% - 2*24px);
     }
 }
 
 @media screen and (max-width:320px) {
-    .header{
+    .header {
         max-width: 288px;
         width: calc(100% - 2*16px);
     }
