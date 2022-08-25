@@ -1,16 +1,16 @@
 .places {
+  padding: 92px 0 0;
   color: #fff;
-  padding-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    padding-top: 88px;
+    padding: 88px 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    padding-top: 64px;
+    padding: 64px 0 0;
   }
 }

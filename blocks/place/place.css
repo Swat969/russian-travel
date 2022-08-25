@@ -20,12 +20,31 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .place {
+    max-width: 720px;
+    column-gap: 28px;
+    padding: 0 0 72px 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
     row-gap: 45px;
     max-width: 720px;
     padding: 0 0 73px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    display: flex;
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    flex-direction: column;
+    row-gap: 32px;
+    padding: 0 0 50px 0;
   }
 }
 
